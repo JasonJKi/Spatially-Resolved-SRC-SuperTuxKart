@@ -1,0 +1,13 @@
+function preprocessing_opts = createPreprocessingOptions(version, stimulus_feature_type, eeg_alignment_type, eeg_preprocessed_str)
+preprocessing_opts.version =  version;
+preprocessing_opts.video_version =  version;
+preprocessing_opts.stimulus_feature_type = stimulus_feature_type;
+preprocessing_opts.eeg_alignment_type = eeg_alignment_type;
+preprocessing_opts.eeg_preprocessed_str = eeg_preprocessed_str;
+preprocessing_opts.is_preprocess_new = false;
+preprocessing_opts.is_draw_figure = false;
+preprocessing_opts.is_debug_mode = false;
+preprocessing_opts.is_warp_correct = false;
+preprocessing_opts.is_rpca_preprocessing = true;
+preprocessing_opts.is_optimal_preprocessing = false;
+preprocessing_opts.is_virtual_eog = true;
